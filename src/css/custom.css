@@ -1,0 +1,77 @@
+/**
+ * GreenMap Docusaurus theme
+ * Palette verte cohérente avec les apps
+ */
+
+:root {
+  --ifm-color-primary: #16a34a;
+  --ifm-color-primary-dark: #15803d;
+  --ifm-color-primary-darker: #166534;
+  --ifm-color-primary-darkest: #14532d;
+  --ifm-color-primary-light: #22c55e;
+  --ifm-color-primary-lighter: #4ade80;
+  --ifm-color-primary-lightest: #86efac;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(22, 163, 74, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4ade80;
+  --ifm-color-primary-dark: #22c55e;
+  --ifm-color-primary-darker: #16a34a;
+  --ifm-color-primary-darkest: #15803d;
+  --ifm-color-primary-light: #86efac;
+  --ifm-color-primary-lighter: #bbf7d0;
+  --ifm-color-primary-lightest: #dcfce7;
+  --docusaurus-highlighted-code-line-bg: rgba(74, 222, 128, 0.1);
+}
+
+/* API endpoint badges */
+.api-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: monospace;
+  letter-spacing: 0.5px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.api-badge--get    { background: #dbeafe; color: #1d4ed8; }
+.api-badge--post   { background: #dcfce7; color: #15803d; }
+.api-badge--put    { background: #fef9c3; color: #92400e; }
+.api-badge--patch  { background: #ffedd5; color: #9a3412; }
+.api-badge--delete { background: #fee2e2; color: #b91c1c; }
+
+/* Param table */
+.param-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 16px 0;
+}
+.param-table th {
+  background: var(--ifm-color-emphasis-100);
+  padding: 8px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+.param-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+.param-table code {
+  font-size: 12px;
+}
+.required-badge {
+  display: inline-block;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
+  vertical-align: middle;
+}

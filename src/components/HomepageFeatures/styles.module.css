@@ -1,0 +1,32 @@
+.features {
+  padding: 3rem 0;
+  background: var(--ifm-color-emphasis-0);
+}
+
+.featureCol {
+  margin-bottom: 1.5rem;
+}
+
+.featureCard {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  height: 100%;
+  transition: box-shadow 0.2s;
+}
+
+.featureCard:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.featureCard h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.featureCard p {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
