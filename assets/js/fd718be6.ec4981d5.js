@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkgreenmap_docs||=[]).push([[818],{4600(e){e.exports=JSON.parse('{"metadata":{"permalink":"/greenmap-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
